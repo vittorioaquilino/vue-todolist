@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+/* MAIN */
+.filters {
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.filter-item input,
+.filter-item button{
+    padding: .5rem;
+    border-radius: .5rem;
+    border: 2px solid orange;
+    font-size: 1.2rem;
+}
+
+.todos {
+    width: 60%;
+    margin: 2rem auto;
+    background-color: #d3d3d3;
+    border-radius: .5rem;
+    font-size: 1.2rem;
+}
+
+ul {
+    list-style: none;
+}
+
+.todo-list li{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid gray;
+    padding: 1rem;
+}
+
+.todo-list li span {
+    flex-grow: 1;
+}
+
+.done {
+    text-decoration: line-through;
+    text-decoration-color: lightgreen;
+}
+
+ul li i {
+    cursor: pointer;
+    color: red;
+}
