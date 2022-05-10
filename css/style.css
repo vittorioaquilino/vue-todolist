@@ -6,6 +6,7 @@
 
 body {
     font-family: 'Lato', sans-serif;
+    background-color: #0040ffa8;
 }
 /* HEADER */
 header {
@@ -16,8 +17,8 @@ header {
 }
 
 .header-logo {
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
     margin-right: 1rem;
 }
 
@@ -35,8 +36,12 @@ header span {
 .filter-item button{
     padding: .5rem;
     border-radius: .5rem;
-    border: 2px solid lightgreen;
+    border: 2px solid white;
     font-size: 1.2rem;
+}
+
+.filter-item button:hover {
+    background-color: lightgreen;
 }
 
 .todos {
@@ -44,7 +49,7 @@ header span {
     margin: 2rem auto;
     background-color: #d3d3d3;
     border-radius: .5rem;
-    border: 2px solid lightgreen;
+    border: 2px solid white;
     font-size: 1.2rem;
 }
 
@@ -55,7 +60,7 @@ ul {
 .todo-list li{
     display: flex;
     justify-content: space-between;
-    border-bottom: 1px solid gray;
+    border-bottom: 1px solid white;
     padding: 1rem;
 }
 
